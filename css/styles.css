@@ -17,6 +17,8 @@ ul {
   letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 1.17;
+  margin: 0;
+  padding: 0;
 }
 .down-logo .logo {
   color: #f4f4fd;
@@ -24,7 +26,9 @@ ul {
 span {
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
 }
+
 .page-nav .link,
 .page-nav .link-line {
   color: #2e2f42;
@@ -49,6 +53,11 @@ span {
 .contacts-list .link {
   color: #434455;
   text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
