@@ -49,9 +49,6 @@ span {
 .contacts-list .link {
   color: #434455;
   text-decoration: none;
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
@@ -63,10 +60,10 @@ footer {
   background-color: #2e2f42;
 }
 
-.post {
+.hero {
   background-color: #2e2f42;
 }
-.post-title {
+.hero-title {
   color: #ffffff;
   text-align: center;
   font-size: 56px;
@@ -81,29 +78,47 @@ footer {
   line-height: 1.11;
   font-weight: 700;
 }
-.title-team {
+.team-section {
   background-color: #f4f4fd;
 }
 
-.title-team h2 {
+.team-section h2 {
   text-align: center;
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.11;
 }
-.title-team ul li {
+.team-section ul li {
   background-color: #ffffff;
 }
-.title-team ul h3,
-.title-team ul p {
+.team-section ul h3,
+.team-section ul p {
   text-align: center;
 }
 
-h2,
 h3 {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.click-item {
+h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
   background-color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
@@ -112,6 +127,7 @@ h3 {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.click-item:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
